@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar color='primary' text-center>
+    <ion-title>
+      Iframe 页面
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <iframe #iframe [src]="url|async" [style.overflow-x]='"hidden"' [style.border]='"none"' [style.height]="'100%'" [style.width]="'100%'"></iframe>
+</ion-content>
